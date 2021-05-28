@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical" android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:padding="5dp"
+              android:gravity="center"
+              android:background="#BE0101">
+
+    <TextView
+            android:id="@+id/testId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="8sp"
+            android:textColor="#fff"
+            android:text="View Renderable Demo"/>
+
+    <TextView
+            android:id="@+id/greeting1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="6sp"
+            android:textColor="#E0DDDD"
+            android:text="Welcome"/>
+
+    <TextView
+            android:id="@+id/greeting2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="6sp"
+            android:textColor="#E0DDDD"
+            android:text="Have a nice day"/>
+</LinearLayout>
